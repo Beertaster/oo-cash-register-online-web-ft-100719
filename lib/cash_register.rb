@@ -15,8 +15,10 @@ class CashRegister
     
     if Quantity > 1 
       count = 0 
-      while 
-    
+      while count < quantity 
+        
+      end
+    end
     
   end
   
