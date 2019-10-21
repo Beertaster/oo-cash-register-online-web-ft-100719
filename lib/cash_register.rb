@@ -29,7 +29,8 @@ class CashRegister
     if @discount > 0 
       @total -= (price * discount)/100
       return "After the discount, the total comes to $#{total}."
-      
+    else
+      return 
   end
   
 end
