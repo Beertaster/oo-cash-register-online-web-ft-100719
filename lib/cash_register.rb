@@ -19,6 +19,8 @@ class CashRegister
         @items << item 
         count += 1
       end
+    else
+      @items << item
     end
     
   end
